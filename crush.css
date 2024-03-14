@@ -1,0 +1,185 @@
+body, html {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+ /* Default background for screens with a 16:9 aspect ratio */
+ body {
+    background-image: url('513777.jpg');
+    background-size: cover;
+  }
+
+  /* Media query for screens with a 9:16 aspect ratio */
+  @media screen and (min-aspect-ratio: 9/16) and (max-aspect-ratio: 9/16) {
+    body {
+      background-image: url('513777 9-16.jpg');
+      background-size: cover;
+    }
+  }
+  
+  
+  /* Media query for screens with a 4:3 aspect ratio */
+  @media screen and (min-aspect-ratio: 4/3) and (max-aspect-ratio: 5/3) {
+    body {
+      background-image: url('513777 4-3.jpg');
+      background-size: cover;
+    }
+  }
+  
+  /* Media query for screens with a 1:1 aspect ratio (square screens) */
+  @media screen and (min-aspect-ratio: 1/1) and (max-aspect-ratio: 1/1) {
+    body {
+      background-image: url('513777 1-1.jpg');
+      background-size: cover;
+    }
+  }
+  
+body, html{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.element {
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: rotateZ(-5deg);
+    touch-action: none;
+}
+
+
+
+img {
+    border: 2px solid black;
+    position: relative;
+    max-height: 200px;
+    right : 100px;
+    margin: 10px ;
+}
+
+
+
+.element.leaf{
+    
+    background-repeat: no-repeat;
+   filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.7));
+    z-index: -1;
+    background-image: url("PAGE 8.png");
+    background-size: 350px;
+    width: 150px;
+    height: 130px;
+    
+
+}
+video {
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+    position: relative;
+    max-height: 90px;
+    top: 15px;
+    right: 110px;
+}
+p.text1 {
+    position: absolute;
+    top: 50%;
+    right: 100px;
+    z-index: 1;
+    transform: translateY(-50%);
+    text-align: left;
+    line-height: 1.5;
+}
+
+
+
+
+
+.element.image1{
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.7));
+     z-index: -1;
+     background-image: url("PAGE 2.png");
+     background-size: 380px;
+     width: 165px;
+     height: 110px;
+ }
+ .element.image1 img {
+    width: 110px; 
+    height: 70px; 
+    right : 80px;
+    margin-top: 20%;
+}
+p.text2 {
+    position: absolute;
+    top: 40%;
+    right: 40px;
+    z-index: 1;
+    transform: translateY(-50%);
+    text-align: left;
+    line-height: 1.5;
+}
+
+
+
+
+.element.image2{
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.7));
+    z-index: -1;
+    background-image: url("PAGE 3.png");
+    background-size: 380px;
+    width: 165px;
+    height: 80px;
+}
+.element.image2 img {
+    width: 110px; 
+    height: 70px; 
+    right : 60px;
+    margin-top: 20%;
+}
+.text3 {
+    position: absolute;
+    top: 49%;
+    right: 20px;
+    z-index: 1;
+    transform: translateY(-50%);
+    text-align: left;
+    line-height: 1.5;
+}
+
+
+
+
+.element.image3{
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.7));
+    z-index: -1;
+    background-image: url("PAGE 6.png");
+    background-size: 380px;
+    width: 165px;
+    height: 95px;
+}
+.element.image3 img {
+    width: 110px; 
+    height: 70px; 
+    right : 70px;
+    margin-top: 20%;
+}
+.text4 {
+    position: absolute;
+    top: 50%;
+    right: 35px;
+    z-index: 1;
+    transform: translateY(-50%);
+    text-align: left;
+    line-height: 1.5;
+}
